@@ -16,10 +16,12 @@
     </form>
 
     <!-- Text link -->
-    <a href="https://www.lewagon.com" class="navbar-wagon-item navbar-wagon-link">Wagon</a>
+    <%= link_to "Wagon", "lewagon.com", class: "navbar-text-link" %>
+    <!-- <a href="https://www.lewagon.com" class="navbar-wagon-item navbar-wagon-link">Wagon</a> -->
 
     <!-- Text link -->
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Team</a>
+    <!-- <a href="" class="navbar-wagon-item navbar-wagon-link">Team</a> -->
+    <%= link_to "Team", "team.html", class: "navbar-text-link" %>
 
     <!-- Notification link-->
     <a href="" class="navbar-wagon-item navbar-wagon-link">
@@ -32,7 +34,8 @@
     <!-- Profile picture and dropdown -->
     <div class="navbar-wagon-item">
       <div class="dropdown">
-        <img src="https://placehold.it/50x50" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+        <!-- <img src="https://placehold.it/50x50" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown"> -->
+        <%= image_tag "images/seb.jpg", class: "img-rounded avatar" %>
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
           <li><a href="#">Profile</a></li>
           <li><a href="#">Dashboard</a></li>

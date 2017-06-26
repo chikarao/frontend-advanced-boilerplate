@@ -129,3 +129,18 @@
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
+
+.navbar-text-link {
+
+  // color: #999999;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  color: #616668;
+  font-size: 14px;
+  padding:10px;
+}
+
+.navbar-text-link:hover {
+
+  color: blue;
+}
+
